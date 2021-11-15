@@ -29,21 +29,115 @@ footer p{
 
 .call{
     text-align: center;
+    color: white;
+}
+
+.call button{
+    background-color: #3882f6;
+    border-radius: 9px;
+    margin-left: 50px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-color: white;
 }
 
 .quote{
     background-color: #E5E7EB;
-    text-align: right;
+    text-align: center;
+    height: 200px;
 }
 
-.quote p{
+.qbox p{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
     text-align: center;
+    width: 800px;
+    margin: auto;
 }
 
-.quote sub{
+.quote .qbox sub{
     text-align: left;
 }
+
+.info{
+    margin: 50px;
+}
+
+.info .ibox{
+    display: flex;
+}
+
+.info img{
+    height: 500px;
+    width: 400px;
+}
+
+.info h2{
+    text-align: center;
+}
+
+.ibox .one, .two, .three, .four{
+    flex: auto;
+    justify-content: center;
+}
+
+.hero div{
+    display: inline-block;
+}
+
+.right img{
+    width: 700px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.hero{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 50px;
+}
+
+.left h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    width: 400px;
+}
+
+.left P{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+}
+
+nav{
+    background-color: #1F2937;
+    display: flex;
+}
+
+nav .navb{
+    justify-items: right;
+}
+
+nav a{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header{
+    background-color: #1F2937;
+}
+
+.left button{
+    background-color: #3882f6;
+    border-radius: 9px;
+    margin-left: 50px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-color: white;
+}
+
